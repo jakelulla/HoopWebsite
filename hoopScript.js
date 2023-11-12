@@ -10,7 +10,6 @@ function showPage(pageName) {
       })
       .catch(error => console.error('Error fetching page:', error));
   }
-  
   // Initial page load (home page)
   showPage(pageName);
   
