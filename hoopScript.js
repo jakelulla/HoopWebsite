@@ -1,28 +1,22 @@
-function showHome() {
-  fetch('http://localhost:8000/homePage.html')
+function fetchPage(relativePath, pageName) {
+  fetch(relativePath)
     .then(response => response.text())
     .then(html => {
       document.getElementById('mainContent').innerHTML = html;
     })
-    .catch(error => console.error('Error fetching homePage.html:', error));
+    .catch(error => console.error(`Error fetching ${pageName}:`, error));
+}
+
+function showHome() {
+  fetchPage('homePage.html', 'homePage');
 }
 
 function showContactInfo() {
-  fetch('http://localhost:8000/contactPage.html')
-    .then(response => response.text())
-    .then(html => {
-      document.getElementById('mainContent').innerHTML = html;
-    })
-    .catch(error => console.error('Error fetching contactPage.html:', error));
+  fetchPage('contactPage.html', 'contactPage');
 }
 
 function showAboutUs() {
-  fetch('http://localhost:8000/aboutUsPage.html')
-    .then(response => response.text())
-    .then(html => {
-      document.getElementById('mainContent').innerHTML = html;
-    })
-    .catch(error => console.error('Error fetching aboutUsPage.html:', error));
+  fetchPage('aboutUsPage.html', 'aboutUsPage');
 }
 
 showHome();
