@@ -12,11 +12,11 @@ function showHome() {
 }
 
 function showContactInfo() {
-  fetchPage('contactInfo.html', 'contactPage');
+  fetchPage('contactInfo.html', 'contactInfo');
 }
 
 function showAboutUs() {
-  fetchPage('aboutUs.html', 'aboutUsPage');
+  fetchPage('aboutUs.html', 'aboutUs');
 }
 
 showHome();
