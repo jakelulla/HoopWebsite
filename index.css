@@ -1,0 +1,47 @@
+/*
+Stylesheet for the ./index.html file and the home route. 
+*/
+.header {
+    background-color: rgb(22, 121, 207);
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+    text-align: center; /* Center text within the .header div */
+}
+
+.header img {
+    /* display: block; */
+    margin: auto;
+    width: 80%;
+}
+
+.header h1,
+.header p {
+    margin: 10px 0; /* Add margin as needed for spacing */
+}
+
+.homeImages {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center;
+    align-items: center;
+}
+
+.homeImages img {
+    margin: 10px;
+    max-width: 70%; /* Ensure images don't exceed their container width */
+}
+
+.homeImages h1,
+.homeImages h2 {
+    text-align: center; /* Center text within the .homeImages div */
+}
+
+.homeButtons {
+    text-align: center; /* Center the buttons within the .homeButtons div */
+}
+
+.homeButtons button {
+    margin: 10px;
+}
