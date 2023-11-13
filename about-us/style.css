@@ -1,0 +1,19 @@
+/*
+Stylesheet for the ./about-us/index.html file or the /about-us route.
+*/
+.aboutUs {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+.aboutUs img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.aboutUs button {
+    display: block;
+    margin: auto;
+}

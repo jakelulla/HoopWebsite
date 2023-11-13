@@ -1,0 +1,27 @@
+/*
+Styles that will be consistent across all pages. This stylesheet 
+will be inlcuded in the header of all HTML files for this project.
+*/
+body {
+    background-color: rgb(44, 102, 154);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    text-decoration: none;
+}
